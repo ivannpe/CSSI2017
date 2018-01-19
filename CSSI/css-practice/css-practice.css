@@ -1,0 +1,23 @@
+body{
+  font-family: monospace;
+}
+
+h1{
+  color: blue;
+}
+
+h2{
+  color: Red;
+  font-weight: bold;
+}
+
+p{
+  text-indent: 4cm;
+}
+img{
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  border: 5px solid Black;
+  margin: 20px;
+}

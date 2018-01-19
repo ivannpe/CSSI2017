@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>Song</title>
+</head>
+<body>
+	<h1>{{ title }}</h1>
+	<br>
+	<ul>
+		<li>Date of Release: {{ month + "/" + day + "/" + year }}</li>
+		<li>Genre: {{ genre }}</li>
+		<li>Artist: {{ artist_name }}</li>
+	</ul>
+	
+	<br><br>
+	<a href="/addartist">Add an artist</a> <br>
+	<a href="/addsong">Add a song</a> <br>
+	<a href="/listsongs">List songs by artist</a>
+</body>
+</html>

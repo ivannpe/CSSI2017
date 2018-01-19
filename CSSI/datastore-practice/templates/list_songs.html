@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>Songs by {{ artist_name }}</title>
+</head>
+<body>
+	{% if songs|length > 0 %}
+		<h1>Songs by {{ artist_name }}</h1>
+		
+		<ul>
+		{% for song in songs %}
+			<li>{{ song }}</li>
+		{% endfor %}
+		</ul>
+	{% else %}
+		<p>We couldn't find any songs by {{ artist_name }}!</p>
+	{% endif %}
+		
+</body>
+</html>
